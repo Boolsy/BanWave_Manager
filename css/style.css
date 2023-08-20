@@ -1,0 +1,214 @@
+
+body {
+    background-image: url("https://i.imgur.com/FrpV9Pz.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.close-button {
+    border-top: none;
+}
+
+span {
+    display: block;
+    border-top: 1px solid black;
+    padding-top: 1px;
+}
+
+.ban-duration-cell {
+    height: 20px;
+}
+
+table {
+    background-color: rgb(255, 255, 255, 0.95);
+    font-size: 15px;
+    border-radius: 8px;
+    overflow: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-container {
+    margin: 0 auto;
+    padding-top: 20px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.copyable:hover {
+    background-color: #ffb718;
+    cursor: pointer;
+}
+
+.container {
+    padding: 20px;
+
+}
+
+.alert-container {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.close-button {
+    position: absolute;
+    top: 0.1rem;
+    right: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-info {
+    background-color: #e0c233;
+    border: none;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%);
+    margin: 10px;
+    width: 50%;
+    padding: 15px 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.btn-grad1 {
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%);
+    margin: 10px;
+    width: 50%;
+    padding: 15px 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad1:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.close-button:hover {
+    color: red;
+}
+
+.navbar .important {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: center;
+    padding: 10px;
+    transition: all 1s;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    transition: all 0.7s;
+    padding-bottom: 3px;
+    border-bottom: 3px transparent solid;
+    display: flex;
+
+}
+
+.navbar ul li:not(:first-child) a:hover {
+    border-bottom: 3px #e38816 solid;
+    transition: all 0.7s;
+}
+
+
+.form-group {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn-grad2 {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #e38816;
+    text-align: center;
+    line-height: 37px;
+    font-size: 30px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 50%;
+    color: #d9d9d9;
+    overflow: hidden;
+}
+
+.btn-grad2:hover {
+    background-color: #b66d12;
+    color: #fff;
+}
+
+
+
